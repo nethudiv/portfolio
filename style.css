@@ -1686,7 +1686,7 @@ body.dark-mode .project-filters .filter-btn.active { background:var(--primary); 
   .theme-toggle { margin:10px 0 12px; }
 }
 @media (max-width: 575.98px) {
-  .stats-grid, .process-grid { grid-template-columns:1fr; }
+  .stats-grid, .process-grid { grid-template-columns:(2,1fr); }
   .stat-item { border-right:0; border-bottom:1px solid var(--border); }
   .stat-item:last-child { border-bottom:0; }
 }
