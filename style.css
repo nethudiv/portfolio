@@ -1136,6 +1136,9 @@ img {
   margin-top: 27px;
 }
 
+.send-btn .btn {
+  padding: 8px 0;
+}
 
 /* FOOTER */
 footer {
