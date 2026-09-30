@@ -578,10 +578,12 @@ img {
 .focus-items {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	gap: 4px;
+	gap: 12px;
 }
 
 .focus-items span {
+	font-size: 15px;
+  	line-height: 1.4;
 	font-weight: 500;
 }
 
