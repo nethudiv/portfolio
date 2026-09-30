@@ -399,6 +399,18 @@ img {
   }
 }
 
+@media (max-width: 768px) {
+
+  .highlight:nth-child(1) {
+    padding-left: 10px; /* ← CHANGED: WordPress */
+  }
+
+  .highlight:nth-child(3) {
+    padding-left: 10px; /* ← CHANGED: Responsive */
+  }
+
+}
+
 .social-links {
   display: flex;
   gap: 10px;
