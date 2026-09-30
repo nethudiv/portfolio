@@ -562,8 +562,10 @@ img {
 }
 
 .about-details small {
-  color: #7b8492;
+  color: #4c79c7fe;
   font-size: 13px;
+  margin-bottom: 2px; /* ← ADDED */
+  line-height: 1.1;    /* ← ADDED */
 }
 
 .about-details span {
