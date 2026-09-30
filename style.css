@@ -389,6 +389,16 @@ img {
   gap: 12px;
 }
 
+@media (max-width: 768px) {
+  .highlight b {
+    text-align: left;
+  }
+  
+  .highlight small {
+    text-align: left;
+  }
+}
+
 .social-links {
   display: flex;
   gap: 10px;
