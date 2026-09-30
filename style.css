@@ -1010,6 +1010,32 @@ img {
   font-size: 12px;
 }
 
+@media (max-width: 767px) {
+
+  .edu-heading {
+    align-items: flex-start;
+    gap: 8px; /* ← CHANGED: reduced from 15px */
+    flex-wrap: wrap; /* ← ADDED: allows duration to move naturally */
+  }
+
+  .edu-heading h4 {
+    font-size: 14px; /* ← CHANGED: slightly smaller on mobile */
+    line-height: 1.45;
+    flex: 1;
+  }
+
+  .edu-heading span {
+    font-size: 10px; /* ← CHANGED: reduced from 11px */
+    padding: 3px 6px; /* ← CHANGED: reduced from 4px 8px */
+    flex-shrink: 0;
+  }
+
+  .education-item p {
+    line-height: 1.5;
+  }
+
+}
+
 /* CONTACT */
 .contact-section {
   background: linear-gradient(180deg, #f4f7fb, #edf2f8);
