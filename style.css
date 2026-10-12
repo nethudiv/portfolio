@@ -729,7 +729,7 @@ img {
   transition: .2s;
 }
 
-.project-actions a:hover {
+.project-actions a: hover {
   color: white;
   background: var(--primary);
 }
