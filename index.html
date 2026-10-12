@@ -6,7 +6,7 @@
   <meta name="description" content="Nethmi Diwyanjalee - Full-Stack Web Developer Portfolio">
   <title>Nethmi Diwyanjalee | Web Developer</title>
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="icon" type="image/png" href="/assets//favicon.png">
   <!-- Bootstrap 5 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <!-- Bootstrap Icons -->
@@ -55,7 +55,7 @@
         <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
           <i class="bi bi-moon-stars-fill"></i>
         </button>
-        <a class="btn btn-outline-primary rounded-pill px-4" href="Nethmi-Divyanjalee-CV.pdf" download>
+        <a class="btn btn-outline-primary rounded-pill px-4" href="#" download>
           Download CV <i class="bi bi-download ms-1"></i>
         </a>
       </div>
@@ -266,7 +266,7 @@
               </div>
 
               <div class="text-start">
-                <a href="Nethmi-Divyanjalee-CV.pdf" download class="btn btn-outline-primary rounded-pill mt-4 px-3">
+                <a href="#" download class="btn btn-outline-primary rounded-pill mt-4 px-3">
                   Download CV <i class="bi bi-download ms-1"></i>
                 </a>
               </div>
@@ -298,8 +298,7 @@
                 <h6>CMS & E-commerce</h6>
                 <div class="skill-tags">
                   <span>WordPress</span>
-                  <span>Custom Themes</span>
-                  <span>Custom Plugins</span>
+                  <span>Themes & Plugins</span>
                   <span>Elementor</span>
                   <span>WooCommerce</span>
                   <span>ElementsKit</span>
@@ -358,14 +357,14 @@
         <div class="section-heading text-center reveal">
           <span class="section-kicker">MY WORK</span>
           <h2>Featured Projects</h2>
-          <p>Web Developer specializing in modern web solutions and engaging digital experiences.</p> 
+          <p>Explore some of my recent work, from customized WordPress websites to modern front-end solutions built for engaging digital experiences.</p> 
         </div>
 
         <div class="project-filters reveal" role="tablist" aria-label="Project filters">
           <button class="filter-btn active" data-filter="all">All</button>
           <button class="filter-btn" data-filter="wordpress">WordPress</button>
           <button class="filter-btn" data-filter="web">Front-End</button>
-          <button class="filter-btn" data-filter="web">UI/UX Design</button>
+          <button class="filter-btn" data-filter="uiux">UI/UX Design</button>
         </div>
 
         <div class="row g-4 project-grid">
@@ -546,64 +545,193 @@
               </div>
             </article>
           </div>
+
+
+          <!-- PROJECT 7: UI/UX DESIGN -->
+          <div class="col-lg-3 col-md-6">
+            <article class="project-card reveal" data-category="uiux">
+
+              <!-- FixNow project thumbnail -->
+              <div class="project-image project-fixnow-uiux">
+
+                  <div class="project-type-label">
+                      UI/UX Design • Figma
+                  </div>
+
+                  <!-- Explore prototype icon -->
+                  <div class="project-actions">
+                      <a
+                          href="https://www.figma.com/proto/l20URvxkrpECoVkvnQXhIS/FixNow-%E2%80%94-UI-UX-Design-Internship-Task---Nethmi-Diwyanjalee--?node-id=151-408&t=3RoUUnZi2BsPnHWt-0&scaling=scale-down&content-scaling=fixed&page-id=1%3A3&starting-point-node-id=151%3A408"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          aria-label="Explore FixNow interactive prototype"
+                          title="Explore Figma Prototype">
+
+                          <i class="bi bi-box-arrow-up-right"></i>
+                      </a>
+                  </div>
+
+              </div>
+
+              <!-- Project information -->
+              <div class="project-body">
+
+                  <h4>FixNow – Mobile App UI/UX Design</h4>
+
+                  <p>
+                      A user-friendly service booking app concept designed
+                      to simplify service discovery, booking and navigation
+                      through an intuitive interface.
+                  </p>
+
+                  <div class="tech-list">
+                      <span>Figma</span>
+                      <span>UI Design</span>
+                      <span>UX Design</span>
+                      <span>Prototyping</span>
+                  </div>
+
+                  <!-- Case-study popup button -->
+                  <button
+                      class="project-details-btn"
+                      type="button"
+                      data-title="FixNow – Mobile App UI/UX Design"
+                      data-type="Mobile App UI/UX Design"
+                      data-role="UI/UX Designer"
+                      data-description="FixNow is a mobile app design concept focused on helping users discover service providers and navigate a simple service-booking journey."
+                      data-features="Service discovery,Professional listings,Professional profiles,Service booking,Request review and confirmation,Mobile navigation"
+                      data-tech="Figma, UI Design, UX Design, Prototyping"
+                      data-live="https://www.figma.com/proto/l20URvxkrpECoVkvnQXhIS/FixNow-%E2%80%94-UI-UX-Design-Internship-Task---Nethmi-Diwyanjalee--?node-id=151-408&t=3RoUUnZi2BsPnHWt-0&scaling=scale-down&content-scaling=fixed&page-id=1%3A3&starting-point-node-id=151%3A408"
+                      data-link-label="Explore Prototype"
+                      data-github="">
+
+                      View Case Study
+                      <i class="bi bi-arrow-up-right"></i>
+                  </button>
+
+              </div>
+
+            </article>
+          </div>
+
         </div>
       </div>
     </section>
 
 
+    
     <!-- ================= PROJECT CASE STUDY MODAL ================= -->
     <div class="modal fade" id="projectModal" tabindex="-1" aria-hidden="true">
-      <div class="modal-dialog modal-lg modal-dialog-centered">
-        <div class="modal-content project-modal">
-          <div class="modal-header">
-            <div>
-              <span class="section-kicker mb-1">PROJECT</span>
-              <h3 id="modalTitle">Project</h3>
-              <span id="modalType" class="modal-project-type"></span>
-            </div>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <p id="modalDescription" class="modal-description"></p>
 
-            <div class="modal-info-grid">
-              <div class="modal-info-card">
-                <span class="modal-info-label">MY ROLE</span>
-                <strong id="modalRole">—</strong>
-              </div>
-              <div class="modal-info-card">
-                <span class="modal-info-label">PROJECT TYPE</span>
-                <strong id="modalTypeCard">—</strong>
-              </div>
-            </div>
+        <div class="modal-dialog modal-lg modal-dialog-centered">
 
-            <div class="modal-feature-section">
-              <h5><i class="bi bi-check2-circle"></i> Key Features</h5>
-              <div class="modal-features" id="modalFeatures"></div>
-            </div>
+            <div class="modal-content project-modal">
 
-            <div class="modal-feature-section">
-              <h5><i class="bi bi-code-slash"></i> Built With</h5>
-              <div class="modal-tech" id="modalTech"></div>
-            </div>
+                <!-- Modal header -->
+                <div class="modal-header">
 
-            <div class="modal-actions">
-              <a id="modalLive" href="#" target="_blank" rel="noopener" class="btn btn-primary rounded-pill">
-                Visit Live Site <i class="bi bi-box-arrow-up-right ms-1"></i>
-              </a>
-              <a id="modalGithub" href="#" target="_blank" rel="noopener" class="btn btn-outline-primary rounded-pill">
-                View GitHub <i class="bi bi-github ms-1"></i>
-              </a>
-            </div>
+                    <div>
+                        <span class="section-kicker mb-1">PROJECT</span>
 
-            <p id="modalRepositoryNote" class="modal-repository-note">
-              <i class="bi bi-info-circle"></i>
-              This project is presented as a live case study rather than a public GitHub repository.
-            </p>
-          </div>
+                        <h3 id="modalTitle">Project</h3>
+
+                        <span id="modalType" class="modal-project-type"></span>
+                    </div>
+
+                    <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close">
+                    </button>
+
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+
+                    <p id="modalDescription" class="modal-description"></p>
+
+                    <div class="modal-info-grid">
+
+                        <div class="modal-info-card">
+                            <span class="modal-info-label">MY ROLE</span>
+                            <strong id="modalRole">—</strong>
+                        </div>
+
+                        <div class="modal-info-card">
+                            <span class="modal-info-label">PROJECT TYPE</span>
+                            <strong id="modalTypeCard">—</strong>
+                        </div>
+
+                    </div>
+
+                    <!-- Key features -->
+                    <div class="modal-feature-section">
+
+                        <h5>
+                            <i class="bi bi-check2-circle"></i>
+                            Key Features
+                        </h5>
+
+                        <div class="modal-features" id="modalFeatures"></div>
+
+                    </div>
+
+                    <!-- Technologies -->
+                    <div class="modal-feature-section">
+
+                        <h5>
+                            <i class="bi bi-code-slash"></i>
+                            Built With
+                        </h5>
+
+                        <div class="modal-tech" id="modalTech"></div>
+
+                    </div>
+
+                    <!-- UPDATED: Dynamic project links -->
+                    <div class="modal-actions">
+
+                        <a
+                            id="modalLive"
+                            href="#"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="btn btn-primary rounded-pill">
+
+                            <span id="modalLiveText">Visit Live Site</span>
+
+                            <i class="bi bi-box-arrow-up-right ms-1"></i>
+                        </a>
+
+                        <a
+                            id="modalGithub"
+                            href="#"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="btn btn-outline-primary rounded-pill">
+
+                            View GitHub
+                            <i class="bi bi-github ms-1"></i>
+                        </a>
+
+                    </div>
+
+                    <p id="modalRepositoryNote" class="modal-repository-note">
+
+                        <i class="bi bi-info-circle"></i>
+
+                        This project is presented as a live case study rather
+                        than a public GitHub repository.
+
+                    </p>
+
+                </div>
+            </div>
         </div>
-      </div>
     </div>
+
 
     <!-- ================= SERVICES ================= -->
     <section id="services" class="section-space service-section">
@@ -739,7 +867,7 @@
 
                 <div class="education-item">
                   <div class="edu-icon">
-                    <i class="bi bi-laptop"></i>
+                   <i class="bi bi-laptop"></i>
                   </div>
                   <div>
                     <div class="edu-heading">
@@ -791,6 +919,7 @@
               </div>
             </div>
           </div>
+
         </div>
       </div>
     </section>
